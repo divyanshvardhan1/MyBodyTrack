@@ -8,6 +8,6 @@ window.MBT_CONFIG = {
     appId: "1:540819333340:web:d9b98f5e4f6b506a6e5419",
     measurementId: "G-87DREJ1PP6"
   },
-  apiBase: "",
+apiBase: "https://mybodytrack-api.divyanshvardhan130.workers.dev",
   allowDemo: false
 };
