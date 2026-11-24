@@ -1,0 +1,4 @@
+-- Additive; run once against existing D1 before deploying V4.
+CREATE TABLE IF NOT EXISTS v4_settings (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS v4_privacy (uid TEXT PRIMARY KEY, activity_optout INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE IF NOT EXISTS v4_audit (id INTEGER PRIMARY KEY AUTOINCREMENT, at TEXT NOT NULL, action TEXT NOT NULL);
