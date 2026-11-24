@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS devices (endpoint TEXT PRIMARY KEY, uid TEXT NOT NULL, subscription TEXT NOT NULL, settings TEXT NOT NULL, runtime TEXT NOT NULL DEFAULT '{}', scanned INTEGER NOT NULL DEFAULT 0);
+CREATE INDEX IF NOT EXISTS idx_devices_uid ON devices(uid);
+CREATE INDEX IF NOT EXISTS idx_devices_scanned ON devices(scanned);
+CREATE TABLE IF NOT EXISTS usage (day TEXT NOT NULL, scope TEXT NOT NULL, count INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(day,scope));
+CREATE TABLE IF NOT EXISTS shared_quotes (day TEXT PRIMARY KEY, ranking TEXT NOT NULL);

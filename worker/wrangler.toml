@@ -1,0 +1,18 @@
+name = "mybodytrack-api"
+main = "src/index.js"
+compatibility_date = "2025-06-01"
+compatibility_flags = ["nodejs_compat"]
+[vars]
+APP_ORIGIN = "https://mybodytrack.pages.dev"
+FIREBASE_PROJECT_ID = "REPLACE_WITH_PROJECT_ID"
+FIREBASE_WEB_API_KEY = "REPLACE_WITH_WEB_API_KEY"
+GEMINI_MODEL = "gemini-3.1-flash-lite"
+AI_USER_DAILY_LIMIT = "8"
+AI_GLOBAL_DAILY_LIMIT = "30"
+VAPID_SUBJECT = "mailto:REPLACE_WITH_YOUR_EMAIL"
+[triggers]
+crons = ["*/5 * * * *"]
+[[d1_databases]]
+binding = "DB"
+database_name = "mybodytrack"
+database_id = "REPLACE_WITH_D1_ID"

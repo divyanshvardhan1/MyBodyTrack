@@ -1,0 +1,1 @@
+{"name":"mybodytrack-api","private":true,"type":"module","scripts":{"dev":"wrangler dev","deploy":"wrangler deploy","keys":"web-push generate-vapid-keys --json"},"dependencies":{"web-push":"^3.6.7"},"devDependencies":{"wrangler":"^4.0.0"}}
