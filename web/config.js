@@ -1,4 +1,13 @@
-// Firebase web configuration is public; NEVER put Gemini or private VAPID keys here.
-window.MBT_CONFIG = { firebase: null, apiBase: "", allowDemo: true };
-// firebase: {apiKey:"...",authDomain:"...",projectId:"...",appId:"...",messagingSenderId:"..."}
-// apiBase: "https://mybodytrack-api.YOUR-SUBDOMAIN.workers.dev"
+window.MBT_CONFIG = {
+  firebase: {
+    apiKey: "AIzaSyDIwXmqs_L135Y1So5M_0JzbtdC27V6Kls",
+    authDomain: "mybodytrack-1a0f0.firebaseapp.com",
+    projectId: "mybodytrack-1a0f0",
+    storageBucket: "mybodytrack-1a0f0.firebasestorage.app",
+    messagingSenderId: "540819333340",
+    appId: "1:540819333340:web:d9b98f5e4f6b506a6e5419",
+    measurementId: "G-87DREJ1PP6"
+  },
+  apiBase: "",
+  allowDemo: false
+};
