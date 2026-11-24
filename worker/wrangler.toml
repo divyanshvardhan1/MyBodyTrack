@@ -7,8 +7,8 @@ APP_ORIGIN = "https://mybodytrack.divyanshvardhan130.workers.dev"
 FIREBASE_PROJECT_ID = "mybodytrack-1a0f0"
 FIREBASE_WEB_API_KEY = "AIzaSyDIwXmqs_L135Y1So5M_0JzbtdC27V6Kls"
 GEMINI_MODEL = "gemini-3.5-flash-lite"
-AI_USER_DAILY_LIMIT = "8"
-AI_GLOBAL_DAILY_LIMIT = "30"
+AI_USER_DAILY_LIMIT = "500"
+AI_GLOBAL_DAILY_LIMIT = "500"
 VAPID_SUBJECT = "mailto:divyanshvardhan130@gmail.com"
 [triggers]
 crons = ["*/5 * * * *"]
